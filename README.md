@@ -1,4 +1,4 @@
-![image](https://github.com/Che1enger/Cinema-app/assets/128822478/f0acf7f6-514c-4e1e-be32-49ba01b79355)Hello, this is a small movie theater website project that was created using React. There are 5 pages: Playbill, Film, Ticket, Market, About.
+Hello, this is a small movie theater website project that was created using React. There are 5 pages: Playbill, Film, Ticket, Market, About.
 
 Playbill:
 ![image](https://github.com/Che1enger/Cinema-app/assets/128822478/60c305ab-e06f-4f06-9a9d-3dbcbb53520e)
