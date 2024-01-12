@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(45, 42, 42);
+  margin:0;
+  overflow-x: hidden;
+}
+.main{
+  margin: 0 90px 0 90px;
+}
+@media only screen and (max-width:600px) {
+.main{
+  margin:0 20px 0 20px;
+}
+}

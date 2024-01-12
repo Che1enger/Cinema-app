@@ -1,0 +1,24 @@
+.screens{
+    width: 958px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .screens img{
+    width: 650px;
+  }
+  .stools{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .stools{
+    margin-top: -45px;
+    row-gap:-50px;
+  }

@@ -1,0 +1,75 @@
+.row1 p,.viprow p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+
+  .row1{
+    margin-bottom: -12px;
+    margin-top: 15px;
+    align-items: center;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 30px;
+    width: 1070px;
+
+  }
+  .stolya{
+    width: 100%;
+    margin-left: 20px;
+  }
+  .stolya img{
+    column-gap: 5px;
+  }
+  .row1 img{
+    margin-left: 3px;
+    width: 38px;
+  }
+.viprow img{
+    margin-left: 3px;
+}
+  .stools{
+    margin-top: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .vipstool{
+    width: 79px;
+  }
+  .opera .vipstool{
+    width: 81px;
+  }
+  .viprow{
+    margin-bottom: -12px;
+    margin-top: 15px;
+    align-items: center;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 30px;
+    width: 1070px;
+  }
+  .stool-img {
+    transition: transform 0.3s ease-out;
+  }
+  .stool-img:hover {
+    
+    transform: translateY(-2px);
+  }
+  .vipstool {
+    transition: transform 0.3s ease-out;
+  }
+  .vipstool:hover {
+    transform: translateY(-2px);
+  }

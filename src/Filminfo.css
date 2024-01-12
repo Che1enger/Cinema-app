@@ -1,0 +1,71 @@
+.info2{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 400px;
+    gap: 20px;
+    border-radius: 20px;
+ 
+  }
+  
+  .info_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+  }
+    .age{
+      font-weight: 400;
+      margin-left: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      width: 30px;
+      height:30px; 
+      border-radius: 10px;
+      border: white solid 2px;
+    }
+    .som{
+        margin-left: -255px;
+        row-gap: 20px;
+    }
+    .ganro{
+      width: 100%;
+      height: 65px;
+      margin-top: 18px;
+      margin-left: 28%;
+    }
+    .ganros{
+      margin-top: 10px;
+      color: rgb(255, 255, 255);
+    }
+    .ganros img{
+      margin: 5px;
+      width: 20px;
+      height: 20px;
+    }
+    .name_ganro{
+      color: rgb(104, 104, 104);
+      width: 100%;
+      height: 40%;
+
+    }
+    .ganros{
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .with_time{
+      display: flex;
+      flex-direction: row;
+    }
+    #star{
+      margin-top: 15px;
+    }

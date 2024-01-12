@@ -1,0 +1,94 @@
+.price{
+    position: absolute;
+    top: 120px;
+    left: -30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 260px;
+    height: 150px;
+    margin-left: 1150px;
+  }
+  .juststool{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom-width: small;
+
+  }
+  .juststool img{
+    fill: white;
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+  }
+.justname,.justprice,.vipname,.vipprice{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+  
+.juststool{position:relative;}
+.juststool:before{
+    position:absolute;
+    bottom: 0;
+    left:49%;
+    width:85%;
+    border-bottom:1px solid #000;
+    content:"";
+    transform: translateX(-50%);
+}
+.vipstools{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.vipstools img{
+    width: 70px;
+    padding-left: 20px;
+  }
+  
+  .vipprice{
+    margin-right: 25px;
+  }
+  .vipname{
+    padding-left: 0px;
+  }
+  .opera .vipname{
+    margin-top: 20px;
+  }
+  .opera .vipprice{
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+  .opera .justname{
+    margin-top: 20px;
+  }
+  .opera .justprice{
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+.juststool:hover{
+  background-color: #cfcfcf;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.vipstools:hover{
+  background-color: #cfcfcf;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;  
+}
+
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

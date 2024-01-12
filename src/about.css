@@ -1,0 +1,43 @@
+
+.title{
+    margin-top: -30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+.AboutImage{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+.AboutImage img{
+    width: 70%;
+    height: auto;
+}
+body{
+    margin: 0;
+  }
+.texts{
+    width: 40%;
+    margin: 0;
+
+    text-wrap: wrap;
+}
+.texts p{
+    color: #fff;
+    width: 700px;
+    text-wrap: wrap;
+    font-size: 0.9rem;
+    margin: 0;
+
+}

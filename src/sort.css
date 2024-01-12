@@ -1,0 +1,142 @@
+.sort{
+    display: flex;
+    flex-direction: row;
+    width: 1304px;
+    height: 70px;
+    background-color: #ffffff;
+    margin: 24px auto;
+    position: relative;
+    border-radius:20px;
+  }
+  .gps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    width: 180px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .gps img{
+    width: 40px;
+    height: 40px;
+  }
+  .left_arrow{
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 100%;
+  }
+  .left_arrow img{
+    width: 35px;
+    height: 45px;
+  }
+  
+  .filter{
+    width: 205px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .img_filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 100%;
+  }
+  .img_filter img{
+    width: 60px;
+    height: 60px;
+  }
+  .name_subname{
+    width: 155px;
+    height: 100%;
+  }
+  .name_name{
+    padding-top: 5px;
+  }
+  .subname{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .right_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 35px;
+    height: 100%;
+  }
+  
+  .right_arrow img {
+    width: 35px;
+    height: 45px;
+    rotate: 180deg;
+  }
+
+  @media only screen and (max-width:600px){
+    .sort{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 70px;
+        background-color: #ffffff;
+        position: relative;
+        border-radius:20px;
+      }
+      .gps{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center ;
+        width: 80px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      .gps img{
+        width: 30px;
+        height: 30px;
+      }
+      .left_arrow{
+        display: flex;
+        align-items: center;
+        width: 10px;
+        height: 100%;
+      }
+      .left_arrow img{
+        width: 35px;
+        height: 45px;
+      }
+      .right_arrow{
+        display: flex;
+        align-items: center;
+        width: 10px;
+        height: 100%;
+      }
+      .right_arrow img{
+        width: 35px;
+        height: 45px;
+        rotate: 180deg;
+      }
+      .filter{
+        width: 205px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 25px;
+        
+      }
+      .img_filter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10px;
+        height: 100%;
+      }
+      .img_filter img{
+        width: 30px;
+        height: 40px;
+      }
+  }
